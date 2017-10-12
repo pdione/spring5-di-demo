@@ -7,13 +7,13 @@ import org.junit.Test;
 
 import group.springframework.services.GreetingServiceImpl;
 
-public class SetterInjectedControllerTest {
+public class GetterInjectedControllerTest {
 
-    private SetterInjectedController setterInjectedController;
+    private GetterInjectedController setterInjectedController;
 
     @Before
     public void setUp() throws Exception {
-	this.setterInjectedController = new SetterInjectedController();
+	this.setterInjectedController = new GetterInjectedController();
 	this.setterInjectedController.setGreetingService(new GreetingServiceImpl());
     }
 
