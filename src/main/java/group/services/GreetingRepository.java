@@ -1,4 +1,4 @@
-package group.springframework.services;
+package group.services;
 
 /**
  * Created by jt on 5/24/17.

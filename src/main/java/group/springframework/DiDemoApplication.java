@@ -3,6 +3,7 @@ package group.springframework;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.ComponentScan;
 
 import group.springframework.controllers.ConstructorInjectedController;
 import group.springframework.controllers.GetterInjectedController;
@@ -10,6 +11,7 @@ import group.springframework.controllers.MyController;
 import group.springframework.controllers.PropertyInjectedController;
 
 @SpringBootApplication
+@ComponentScan(basePackages = { "group.services", "group.springframework" })
 public class DiDemoApplication {
 
     public static void main(String[] args) {

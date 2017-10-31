@@ -1,4 +1,4 @@
-package group.springframework.services;
+package group.services;
 
 import org.springframework.context.annotation.Primary;
 import org.springframework.context.annotation.Profile;

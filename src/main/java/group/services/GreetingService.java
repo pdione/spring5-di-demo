@@ -1,4 +1,4 @@
-package group.springframework.services;
+package group.services;
 
 public interface GreetingService {
 
